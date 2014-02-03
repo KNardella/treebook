@@ -13,5 +13,13 @@
  */
 
  body {
-	padding-top: 40px;
+	padding-top: 60px;
 }
+
+.navbar-nav.navbar-btn a{
+	text-decoration: none;
+}
+.navbar-nav.navbar-btn button > a:link {
+	text-decoration: none;
+}
+
