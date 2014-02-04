@@ -45,6 +45,33 @@
                 <File name="app\models\user.rb" />
             </Folder>
             <Folder name="views">
+                <Folder name="devise">
+                    <Folder name="confirmations">
+                        <File name="app\views\devise\confirmations\new.html.erb" />
+                    </Folder>
+                    <Folder name="mailer">
+                        <File name="app\views\devise\mailer\confirmation_instructions.html.erb" />
+                        <File name="app\views\devise\mailer\reset_password_instructions.html.erb" />
+                        <File name="app\views\devise\mailer\unlock_instructions.html.erb" />
+                    </Folder>
+                    <Folder name="passwords">
+                        <File name="app\views\devise\passwords\edit.html.erb" />
+                        <File name="app\views\devise\passwords\new.html.erb" />
+                    </Folder>
+                    <Folder name="registrations">
+                        <File name="app\views\devise\registrations\edit.html.erb" />
+                        <File name="app\views\devise\registrations\new.html.erb" />
+                    </Folder>
+                    <Folder name="sessions">
+                        <File name="app\views\devise\sessions\new.html.erb" />
+                    </Folder>
+                    <Folder name="shared">
+                        <File name="app\views\devise\shared\_links.erb" />
+                    </Folder>
+                    <Folder name="unlocks">
+                        <File name="app\views\devise\unlocks\new.html.erb" />
+                    </Folder>
+                </Folder>
                 <Folder name="layouts">
                     <File name="app\views\layouts\application.html.erb" />
                 </Folder>
@@ -94,6 +121,7 @@
             <Folder name="migrate">
                 <File name="db\migrate\20140202113831_create_statuses.rb" />
                 <File name="db\migrate\20140203044150_devise_create_users.rb" />
+                <File name="db\migrate\20140203071109_add_user_id_to_statuses.rb" />
             </Folder>
             <File name="db\development.sqlite3" />
             <File name="db\production.sqlite3" />

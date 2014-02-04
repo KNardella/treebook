@@ -23,3 +23,11 @@
 	text-decoration: none;
 }
 
+.shared-links {
+	padding: 5px 0
+}
+
+.shared-links a {
+	padding: 0 5px
+}
+
