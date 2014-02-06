@@ -1,0 +1,22 @@
+ body {
+	padding-top: 60px;
+}
+
+.navbar-nav.navbar-btn a{
+	text-decoration: none;
+}
+.navbar-nav.navbar-btn button > a:link {
+	text-decoration: none;
+}
+
+.shared-links {
+	padding: 5px 0
+}
+
+.shared-links a {
+	padding: 0 5px
+}
+
+.alert {
+	margin-bottom: 10px
+}
