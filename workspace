@@ -20,6 +20,7 @@
                     <File name="app\assets\stylesheets\bootstrap.css" />
                     <File name="app\assets\stylesheets\scaffolds.css.scss" />
                     <File name="app\assets\stylesheets\statuses.css.scss" />
+                    <File name="app\assets\stylesheets\styles.css" />
                 </Folder>
             </Folder>
             <Folder name="controllers">
@@ -105,11 +106,14 @@
                 <File name="config\initializers\mime_types.rb" />
                 <File name="config\initializers\secret_token.rb" />
                 <File name="config\initializers\session_store.rb" />
+                <File name="config\initializers\simple_form.rb" />
+                <File name="config\initializers\simple_form_bootstrap.rb" />
                 <File name="config\initializers\wrap_parameters.rb" />
             </Folder>
             <Folder name="locales">
                 <File name="config\locales\devise.en.yml" />
                 <File name="config\locales\en.yml" />
+                <File name="config\locales\simple_form.en.yml" />
             </Folder>
             <File name="config\application.rb" />
             <File name="config\boot.rb" />
@@ -136,10 +140,18 @@
             <Folder name="tasks">
                 <File name="lib\tasks\.keep" />
             </Folder>
+            <Folder name="templates">
+                <Folder name="erb">
+                    <Folder name="scaffold">
+                        <File name="lib\templates\erb\scaffold\_form.html.erb" />
+                    </Folder>
+                </Folder>
+            </Folder>
         </Folder>
         <Folder name="log">
             <File name="log\.keep" />
             <File name="log\development.log" />
+            <File name="log\test.log" />
         </Folder>
         <Folder name="public">
             <File name="public\404.html" />
@@ -164,6 +176,7 @@
             </Folder>
             <Folder name="integration">
                 <File name="test\integration\.keep" />
+                <File name="test\integration\custom_routes_test.rb" />
             </Folder>
             <Folder name="mailers">
                 <File name="test\mailers\.keep" />
@@ -191,6 +204,7 @@
                         </Folder>
                         <Folder name="sprockets">
                             <File name="tmp\cache\assets\development\sprockets\05307666b626ddfa9efc97cd72e36bbf" />
+                            <File name="tmp\cache\assets\development\sprockets\067302be7fc4e929ed234394d639bf22" />
                             <File name="tmp\cache\assets\development\sprockets\10fcfbe6ebae11a40c8eac41939a1b9a" />
                             <File name="tmp\cache\assets\development\sprockets\13096ea81d27eeda2f0ec1cba313cf83" />
                             <File name="tmp\cache\assets\development\sprockets\13834cfa405c82d6bac95f90f80eced7" />
@@ -199,8 +213,10 @@
                             <File name="tmp\cache\assets\development\sprockets\1439cb38760e5c05a727db1206c15d7d" />
                             <File name="tmp\cache\assets\development\sprockets\166c056119ebdfb8b7104c97b424b423" />
                             <File name="tmp\cache\assets\development\sprockets\2116030b0068687a3528350cc3c583d8" />
+                            <File name="tmp\cache\assets\development\sprockets\22516fd1f9daf04ec4b5ac994781f40f" />
                             <File name="tmp\cache\assets\development\sprockets\2f5173deea6c795b8fdde723bb4b63af" />
                             <File name="tmp\cache\assets\development\sprockets\357970feca3ac29060c1e3861e2c0953" />
+                            <File name="tmp\cache\assets\development\sprockets\45ae2cda73f7044541a58f64564df62e" />
                             <File name="tmp\cache\assets\development\sprockets\562c2d168da585f80579347d10790a0a" />
                             <File name="tmp\cache\assets\development\sprockets\64e0ecf2066913b17a2d2b6987a1389f" />
                             <File name="tmp\cache\assets\development\sprockets\755ca318ae88c1eb531cd6a174b2f330" />
