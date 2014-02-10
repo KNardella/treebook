@@ -12,4 +12,9 @@ class CustomRoutesTest < ActionDispatch::IntegrationTest
 		assert_response :success
 	end
 	
+	test "that a profile page workds" do
+		get '/Minstrel'
+		assert_response :success
+	end
+	
 end

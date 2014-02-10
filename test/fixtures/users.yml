@@ -4,3 +4,8 @@ kathleen:
   email: "kathleen_test@test.com"
   profile_name: "minstrel"
 
+chris:
+  first_name: "Chris"
+  last_name: "Hackett"
+  email: "chris_test@test.com"
+  profile_name: "Chrish"
